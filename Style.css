@@ -1,36 +1,52 @@
-body {
+body,
+ul,
+li,
+h1,
+h2,
+a{
   margin-top: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana,  sans-serif;
 }
 
 .container {
   width: 1200px;
-  background-color: #888888;
-  height: 2000px;
+  background-color: #fcfcfc;
+  height: 100px;
   -ms-flex-item-align: center;
   align-self: center;
   margin: 0px auto;
-  padding: 0 auto;
+  padding: 100px auto;
 }
 
 .header {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   height: auto;
+  width: 100%;
+  display: inline-block;
+  
+  
 }
 
 .container-menu {
-  height: 60px;
-  background-color: antiquewhite;
+  height: 100x;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
 }
 .container-logo {
-  width: 100%;
-  height: inherit;
-  background-color: azure;
+  height: 10px;
+  width: 45%;
+  vertical-align: middle;
+  background-color: #ffffff;
   text-align: center;
+
 }
 
 .site-title {
@@ -40,15 +56,28 @@ body {
 
 .container-imagen {
   background-image: url("./bg.png");
-  height: 240px;
-  /* margin-bottom: 20px; */
+  height: 500px;
+  width: 100%;
+  z-index: 1;
+  /* position: sticky; */
+  top: 93%;
+
+
+  margin-bottom: 20px;
 }
 
 .nav-list {
-  padding: 0.25em 0;
+  padding: 0.8em;
+  vertical-align: middle;
   list-style-type: none;
   text-align: end;
-  width: 100%;
+  width: 42%;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 60px;
+  top: 20px;
+  text-align: center;
+  
 }
 
 .nav-element {
@@ -70,7 +99,7 @@ body {
 }
 
 .section-1 {
-  height: 700px;
+  height: 650px;
   background-color: rgb(51, 153, 122);
 }
 
@@ -80,14 +109,16 @@ body {
 }
 
 .section-3 {
-  height: 500px;
+  height: 700px;
   background-color: rgb(248, 160, 128);
 }
 
 .footer {
-  height: 200px;
-  background-color: yellowgreen;
+  height: 990px;
+  background-color: rgb(152, 204, 253);
   bottom: 0px;
+  margin: 10px;
+  border: 15px;
   /* position: fixed; */
   /* width: 1200px; */
 }
@@ -101,19 +132,22 @@ body {
 }
 
 .col-3 {
-  width: 25.08%;
-  height: 100px;
+  width: 25%;
+  height: 450px;
   background-color: rgb(242, 240, 252);
   display: inline-table;
-  padding: 30px;
-  margin: 150px 15px 0;
+  padding: 15px;
+  margin: 40px 30px 0;
   text-align: center;
+  box-shadow: 5px 10px #9c9898;
+  /* position: relative; */
 }
 .col-5 {
   width: 19%;
-  height: 470px;
-  display: inline-block;
-  margin: 5px 4px 0;
+  height: 600px;
+  display: inline-table;
+  padding: 0px;
+  margin: 20px 4px 0;
   text-align: center;
   background-color: rgba(236, 230, 155, 0.795);
 }
@@ -174,11 +208,11 @@ body {
 }
 
 .fa-ambulance.news-logo {
-  padding: 20px 0;
+  padding: 8px 0;
 }
 
 .news-url {
-  font-size: 10px;
+  font-size: 20px;
   float: right;
 }
 
@@ -212,4 +246,28 @@ hr {
 .main-menu__link:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.borderfield{
+  width: 0%;
+  height: 10px;
+  display: inline-table;
+  padding: 10px;
+  margin: 2px 40px 0;
+  text-align: left;
+}
+
+.text_footer {
+  width: 93%;
+  height: 20px;
+  display: inline-table;
+  padding: 10px;
+  margin: 1px 40px 0;
+  text-align: left;
+  
+}
+.mapas_footer{
+  position: absolute;
+  left: 33%;
+  top: 395%
 }
