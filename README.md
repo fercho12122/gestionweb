@@ -1,8 +1,17 @@
 # gestionweb
 desarrollo web plantillas automatizadas
 
-DESARROLLO DEL PROYECTO
- VIE Y VUETIFY
- herramientas de trabajo
- 
+REQUERIMIENTOS DEL PROYECTO
+    *¿Que va a vender el proyecto?
+    **Ventas
+    **Visualización 
+    **Proceso interno de la empresa
+
+Buscar templates HTMLS Y CSS
+    **Templates de Vue y Vuetify
+    **Utilizando todos los componentes de Vuetify (Armar el Frond-End)
+
+HTML Y (CSS - PURO)
+    Boostrap
+    Material Desing
 
